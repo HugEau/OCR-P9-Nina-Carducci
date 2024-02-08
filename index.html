@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<!-- Placement des Links en premier pour chargement priorisé-->
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Ajout de balises meta et SEO -->
 	<title>Nina Carducci - Photographe</title>
+
+	<meta name="title" content="- Nina Carducci - Portfolio de photographe professionnel">
 	<meta name="description" content="Site portfolio de Nina Carducci - Photographe">
 
+	<!-- Balises facebook-->
 	<meta property="og:title" content="Nina Carducci - Photographe" />
 	<meta property="og:description" content="Site portfolio de Nina Carducci - Photographe" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://hugeau.github.io/OCR-P9-Nina-Carducci/" />
 	<meta property="og:image" content="https://hugeau.github.io/OCR-P9-Nina-Carducci/assets/nina.webp" />
 
-	<meta name="twitter:card" content="summary" />
+	<!-- Balises X -->
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="https://hugeau.github.io/OCR-P9-Nina-Carducci/" />
 	<meta name="twitter:title" content="Nina Carducci - Photographe" />
 	<meta name="twitter:description" content="Site portfolio de Nina Carducci - Photographe" />
 	<meta name="twitter:image" content="https://hugeau.github.io/OCR-P9-Nina-Carducci/assets/nina.webp" />
 
-	<link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-		<noscript>
-			<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-		</noscript>
-	<link rel="stylesheet" href="./assets/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<!--Données créées avec schema.org au format JSON-LD-->
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "PORTFOLIO Photographe professionnel - Nina CARDUCCI",
+		  "telephone": "05 56 67 78 89",
+		  "email": "contact@ninacarducci.fr",
+		  "url": "https://hugeau.github.io/OCR-P9-Nina-Carducci/",
+		  "image": "https://hugeau.github.io/OCR-P9-Nina-Carducci/assets/images/nina.webp",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"postalCode": "33200",
+			"addressLocality": "Bordeaux"
+		  },
+		  "openingHours": "Mo-Fr 09:00-12:00",
+		  "priceRange": "$$"
+		}
+		</script>
 	
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-	<script src="./assets/maugallery.js" defer></script>
-	<script src="./assets/scripts.js" defer></script>
 </head>
 <body>
 <div class="top-header">
@@ -174,5 +195,9 @@
 		</div>
 	</div>
 </div>
+<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+<script src="./assets/maugallery.js" defer></script>
+<script src="./assets/scripts.js" defer></script>
 </body>
 </html>
